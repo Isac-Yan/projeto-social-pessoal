@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@media(max-width: 600px) {
+
+    section#telefone {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    
+        transform: translate(-50%, -50%);
+    
+        height: 502px;
+        width: 250px;
+        background-image: url('../img/frame-iphone-pequeno.png');
+        background-repeat: no-repeat;
+    }
+
+    iframe#tela {
+        position: relative;
+        top: 66px;
+        left: 19px;
+        width: 212px;
+        height: 375px;
+    }
+
+
+    section#redes-sociais {
+        text-align: right;
+        position: absolute;
+        top: 100px;
+        right: 5px;
+    }
+
+    section#redes-sociais img {
+        display: inline-block;
+        width: 35px;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.500);
+        box-sizing: border-box;
+    }
+}
